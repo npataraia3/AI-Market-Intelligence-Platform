@@ -1,6 +1,6 @@
 # AI Market Intelligence Platform
 
-A free, local, portfolio-ready data application for collecting cryptocurrency market data, storing it in SQLite, monitoring significant moves, exposing an API, and visualizing results in a Streamlit dashboard.
+A free, local data application for collecting cryptocurrency market data, storing it in SQLite, monitoring significant moves, exposing an API, and visualizing results in a Streamlit dashboard.
 
 ## What it demonstrates
 
@@ -36,7 +36,7 @@ Python 3.11+ is required. The current project environment has been verified with
 > interactive console (the `>>>` / `...` prompt). Pasting PowerShell commands there causes
 > `SyntaxError`. To open PowerShell: press **Win**, type `PowerShell`, and press Enter.
 
-### Quick start (recommended) — no typing needed
+### Quick start
 
 1. Download the project folder.
 2. Open **PowerShell**.
