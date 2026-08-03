@@ -1,0 +1,24 @@
+name: Daily market data pipeline
+
+on:
+  schedule:
+    - cron: "15 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  refresh-and-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Run daily market refresh
+        run: python -m app.pipeline.daily_update
+      - name: Run test suite
+        run: python -m pytest -q tests -p no:cacheprovider
