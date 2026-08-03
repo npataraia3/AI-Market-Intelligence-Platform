@@ -32,24 +32,29 @@ tests/        Automated tests
 
 Python 3.11+ is required. The current project environment has been verified with Python 3.14.
 
-```powershell
-python -m pip install -r requirements.txt
-Copy-Item .env.example .env
-```
+> **Important:** all commands below must be run in **PowerShell**, not in the Python
+> interactive console (the `>>>` / `...` prompt). Pasting PowerShell commands there causes
+> `SyntaxError`. To open PowerShell: press **Win**, type `PowerShell`, and press Enter.
 
-## Run
+### Quick start (recommended) — no typing needed
 
-Open two terminals in the project folder:
-
-```powershell
-# Terminal 1
-python -m uvicorn app.main:app --reload
-
-# Terminal 2
-python -m streamlit run dashboard/streamlit_app.py
-```
-
-Then open the dashboard at **http://127.0.0.1:8501**. The FastAPI docs are available at **http://127.0.0.1:8000/docs**.
+1. Download the project folder.
+2. Open **PowerShell**.
+3. Change into the project folder, for example:
+   ```powershell
+   cd "C:\Users\ninop\Desktop\2026_Learning Data Science Basics (independently)\AI Market Intelligence Platform"
+   ```
+3. Run these one at a time:
+   ```powershell
+   .\setup.bat
+   .\start.bat
+   ```
+   `setup.bat` installs dependencies (only needed the first time). `start.bat` launches
+   both servers and opens the dashboard in your browser at **http://127.0.0.1:8501**.
+4. To stop the servers later:
+   ```powershell
+   .\stop.bat
+   ```
 
 ## Dashboard access
 
@@ -123,11 +128,19 @@ mlflow ui --backend-store-uri sqlite:///mlflow.db   # then open http://127.0.0.1
 
 A self-contained Jupyter notebook (`notebooks/analysis.ipynb`) walks through EDA, stationarity,
 feature engineering, leakage-aware validation, the naive-baseline comparison, feature
-importance and forecast uncertainty:
+importance and forecast uncertainty. Run in **PowerShell**:
 
 ```powershell
 python -m pip install jupyter
 jupyter notebook notebooks/analysis.ipynb
+```
+
+## Tests
+
+Run in **PowerShell**:
+
+```powershell
+python -m pytest
 ```
 
 ## Free-data note
@@ -135,9 +148,3 @@ jupyter notebook notebooks/analysis.ipynb
 The application uses CoinGecko's public endpoint. A demo key is optional and can be placed in `.env`; never commit it. Public services can rate-limit requests, so refresh only when needed.
 
 The dashboard also retrieves the free [Crypto Fear & Greed Index](https://alternative.me/crypto/fear-and-greed-index/) as an exogenous feature. MLflow is included for optional local experiment tracking; no cloud account or API key is required.
-
-## Tests
-
-```powershell
-python -m pytest
-```
