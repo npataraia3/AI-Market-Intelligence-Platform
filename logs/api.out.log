@@ -1,0 +1,11 @@
+INFO:     127.0.0.1:53597 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     192.168.0.104:62227 - "GET /api/market/snapshots?limit=500 HTTP/1.1" 200 OK
+INFO:     192.168.0.104:62227 - "GET /api/market/analysis/bitcoin?days=365 HTTP/1.1" 200 OK
+INFO:     192.168.0.104:62227 - "GET /api/assistant/summary?coin_id=bitcoin HTTP/1.1" 200 OK
+INFO:     192.168.0.104:62227 - "GET /api/alerts?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54283 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     192.168.0.104:54284 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52973 - "GET /api/market/snapshots?limit=500 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52973 - "GET /api/market/analysis/bitcoin?days=365 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52973 - "GET /api/assistant/summary?coin_id=bitcoin HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52973 - "GET /api/alerts?limit=5 HTTP/1.1" 200 OK
