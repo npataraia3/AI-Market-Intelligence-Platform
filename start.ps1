@@ -4,11 +4,15 @@
 # ============================================================
 $ErrorActionPreference = "Stop"
 
+if (-not (Test-Path "$PSScriptRoot\logs")) { New-Item -ItemType Directory -Path "$PSScriptRoot\logs" | Out-Null }
+
 Write-Host "Starting the API server (port 8000)..."
-Start-Process -FilePath "python" -ArgumentList "-m", "uvicorn", "app.main:app", "--host", "127.0.0.1", "--port", "8000" -WindowStyle Hidden
+$apiLog = "$PSScriptRoot\logs\api"
+Start-Process -FilePath "python" -ArgumentList "-m", "uvicorn", "app.main:app", "--host", "127.0.0.1", "--port", "8000" -WindowStyle Hidden -WorkingDirectory $PSScriptRoot -RedirectStandardOutput "$apiLog.out.log" -RedirectStandardError "$apiLog.err.log"
 
 Write-Host "Starting the dashboard (port 8501)..."
-Start-Process -FilePath "python" -ArgumentList "-m", "streamlit", "run", "dashboard/streamlit_app.py", "--server.headless", "true", "--server.port", "8501" -WindowStyle Hidden
+$dashLog = "$PSScriptRoot\logs\dashboard"
+Start-Process -FilePath "python" -ArgumentList "-m", "streamlit", "run", "dashboard/streamlit_app.py", "--server.headless", "true", "--server.port", "8501" -WindowStyle Hidden -WorkingDirectory $PSScriptRoot -RedirectStandardOutput "$dashLog.out.log" -RedirectStandardError "$dashLog.err.log"
 
 Write-Host "Waiting for the API to become ready..."
 $ready = $false
