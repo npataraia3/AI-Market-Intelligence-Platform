@@ -101,14 +101,18 @@ st.markdown(
 )
 
 
+_HTTP = requests.Session()
+_HTTP.trust_env = False
+
+
 def api_get(path: str, **params):
-    response = requests.get(f"{API_URL}{path}", params=params, timeout=35)
+    response = _HTTP.get(f"{API_URL}{path}", params=params, timeout=35)
     response.raise_for_status()
     return response.json()
 
 
 def refresh_market() -> dict:
-    response = requests.post(f"{API_URL}/market/refresh", timeout=35)
+    response = _HTTP.post(f"{API_URL}/market/refresh", timeout=35)
     response.raise_for_status()
     return response.json()
 
