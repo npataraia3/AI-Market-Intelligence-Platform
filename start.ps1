@@ -6,13 +6,25 @@ $ErrorActionPreference = "Stop"
 
 if (-not (Test-Path "$PSScriptRoot\logs")) { New-Item -ItemType Directory -Path "$PSScriptRoot\logs" | Out-Null }
 
+# Detect the primary LAN IPv4 so family members on other devices can
+# reach the API. Falls back to loopback if no LAN address is found.
+$lanIp = Get-NetIPConfiguration -ErrorAction SilentlyContinue |
+    Where-Object { $_.IPv4DefaultGateway -and $_.IPv4Address.IPAddress -notlike "169.254.*" } |
+    Select-Object -First 1 |
+    ForEach-Object { $_.IPv4Address.IPAddress }
+if (-not $lanIp) { $lanIp = "127.0.0.1" }
+
 Write-Host "Starting the API server (port 8000)..."
 $apiLog = "$PSScriptRoot\logs\api"
-Start-Process -FilePath "python" -ArgumentList "-m", "uvicorn", "app.main:app", "--host", "127.0.0.1", "--port", "8000" -WindowStyle Hidden -WorkingDirectory $PSScriptRoot -RedirectStandardOutput "$apiLog.out.log" -RedirectStandardError "$apiLog.err.log"
+Start-Process -FilePath "python" -ArgumentList "-m", "uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000" -WindowStyle Hidden -WorkingDirectory $PSScriptRoot -RedirectStandardOutput "$apiLog.out.log" -RedirectStandardError "$apiLog.err.log"
 
 Write-Host "Starting the dashboard (port 8501)..."
 $dashLog = "$PSScriptRoot\logs\dashboard"
+# The dashboard must call this machine's LAN address, not 127.0.0.1,
+# otherwise viewers on other devices would query their own localhost.
+$env:MARKET_API_URL = "http://${lanIp}:8000/api"
 Start-Process -FilePath "python" -ArgumentList "-m", "streamlit", "run", "dashboard/streamlit_app.py", "--server.headless", "true", "--server.port", "8501" -WindowStyle Hidden -WorkingDirectory $PSScriptRoot -RedirectStandardOutput "$dashLog.out.log" -RedirectStandardError "$dashLog.err.log"
+Remove-Item Env:MARKET_API_URL -ErrorAction SilentlyContinue
 
 Write-Host "Waiting for the API to become ready..."
 $ready = $false
@@ -32,6 +44,7 @@ if (-not $ready) {
 
 Write-Host ""
 Write-Host "Dashboard  : http://127.0.0.1:8501"
+Write-Host "Other devices on this Wi-Fi: http://${lanIp}:8501"
 Write-Host "API docs   : http://127.0.0.1:8000/docs"
 Write-Host ""
 Write-Host "Both servers are now running in the background."
