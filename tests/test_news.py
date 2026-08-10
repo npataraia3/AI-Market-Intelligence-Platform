@@ -65,10 +65,11 @@ def _isolated(tmp_path, monkeypatch):
 
 
 def _mock_feed(monkeypatch, xml: str):
-    def fake_get(url, timeout=None, headers=None):
-        return _FakeResponse(xml.encode("utf-8"))
+    class _FakeSession:
+        def get(self, url, timeout=None):
+            return _FakeResponse(xml.encode("utf-8"))
 
-    monkeypatch.setattr(news_module._SESSION, "get", fake_get)
+    monkeypatch.setattr(news_module, "_session", lambda: _FakeSession())
 
 
 def test_rss_parsing_tags_and_recency_order(monkeypatch) -> None:
@@ -107,10 +108,11 @@ def test_coin_filter(monkeypatch) -> None:
 
 
 def test_all_feeds_fail_degrades_to_empty(monkeypatch) -> None:
-    def failing_get(url, timeout=None, headers=None):
-        raise requests.ConnectionError("no network")
+    class _FailingSession:
+        def get(self, url, timeout=None):
+            raise requests.ConnectionError("no network")
 
-    monkeypatch.setattr(news_module._SESSION, "get", failing_get)
+    monkeypatch.setattr(news_module, "_session", lambda: _FailingSession())
     payload = news_module.get_news(limit=10)
     assert payload["news"] == []
     assert payload["error"]
