@@ -222,8 +222,13 @@ def _refresh() -> tuple[list[dict], str | None]:
     seen: dict[str, dict] = {}
     errors: list[str] = []
     with ThreadPoolExecutor(max_workers=len(SOURCES)) as pool:
-        results = list(pool.map(_fetch_feed, (name for name, _ in SOURCES),
-                                (url for _, url in SOURCES)))
+        futures = [pool.submit(_fetch_feed, name, url) for name, url in SOURCES]
+        results = []
+        for future in futures:
+            try:
+                results.append(future.result())
+            except Exception as exc:
+                results.append(exc)
     for (name, _url), result in zip(SOURCES, results):
         if isinstance(result, Exception):
             errors.append(f"{name}: {result.__class__.__name__}")
