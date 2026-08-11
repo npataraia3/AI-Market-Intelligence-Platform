@@ -1,0 +1,1003 @@
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8501
+ * Running on http://192.168.1.110:8501
+Press CTRL+C to quit
+127.0.0.1 - - [10/Aug/2026 22:08:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:08:38] "GET /_dash-dependencies HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:08:38] "GET /_dash-layout HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:08:38] "GET /_favicon.ico?v=3.4.0 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:08:38] "GET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/Aug/2026 22:08:38] "GET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/Aug/2026 22:08:38] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:08:38] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:08:38] "GET /_dash-component-suites/dash/dcc/async-markdown.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/Aug/2026 22:08:38] "GET /_dash-component-suites/dash/dcc/async-highlight.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/Aug/2026 22:08:39] "GET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/Aug/2026 22:09:16] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:09:16] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:09:16] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:09:16] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:09:16] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:09:16] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:09:16] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:09:16] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:09:16] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:09:16] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:09:16] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:09:16] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:09:16] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:09:16] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:09:16] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:09:16] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:09:17] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:09:17] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:09:17] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:09:17] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:09:18] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:09:18] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:09:18] "GET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/Aug/2026 22:09:20] "GET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/Aug/2026 22:10:07] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:10:18] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:10:33] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:10:34] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:10:34] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:10:34] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:10:34] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:10:34] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:10:34] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:10:34] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:10:34] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:10:34] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:10:34] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:10:34] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:10:34] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:10:34] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:10:34] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:10:34] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:10:35] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:10:35] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:10:35] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:10:35] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:10:35] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:10:35] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:10:39] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:10:45] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:11:25] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:11:48] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:11:52] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:11:52] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:11:52] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:11:52] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:11:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:11:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:11:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:11:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:11:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:11:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:11:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:11:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:11:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:11:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:11:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:11:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:11:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:11:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:11:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:11:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:11:55] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:11:55] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:12:12] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:12:37] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:12:50] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:30] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:36] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:38] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:38] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:38] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:38] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:38] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:38] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:38] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:38] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:38] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:38] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:38] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:39] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:39] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:39] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:39] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:39] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:39] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:39] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:39] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:39] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:39] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:39] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:41] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:42] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:44] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:45] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:47] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:48] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:50] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:51] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:13:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:23] "GET /_dash-layout HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:23] "GET /_dash-dependencies HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:23] "GET /_dash-component-suites/dash/dcc/async-markdown.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/Aug/2026 22:14:23] "GET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/Aug/2026 22:14:23] "GET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/Aug/2026 22:14:23] "GET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/Aug/2026 22:14:23] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:23] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:24] "GET /_dash-component-suites/dash/dcc/async-highlight.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/Aug/2026 22:14:25] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:25] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:25] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:25] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:25] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:26] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:26] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:26] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:26] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:26] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:26] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:26] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:26] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:26] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:26] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:26] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:27] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:27] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:27] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:27] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:27] "GET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/Aug/2026 22:14:27] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:14:27] "GET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/Aug/2026 22:14:27] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:15:17] "GET /_dash-component-suites/dash/dcc/async-markdown.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/Aug/2026 22:15:18] "GET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/Aug/2026 22:15:18] "GET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/Aug/2026 22:15:18] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:15:18] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:15:18] "GET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/Aug/2026 22:15:18] "GET /_dash-component-suites/dash/dcc/async-highlight.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/Aug/2026 22:15:19] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:15:19] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:15:19] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:15:19] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:15:19] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:15:19] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:15:19] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:15:19] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:15:19] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:15:19] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:15:19] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:15:19] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:15:19] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:15:20] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:15:20] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:15:20] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:15:20] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:15:20] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:15:20] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:15:20] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:15:20] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:15:20] "GET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/Aug/2026 22:15:20] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:15:20] "GET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/Aug/2026 22:20:19] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:20:19] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:20:19] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:20:20] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:20:20] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:20:20] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:20:20] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:20:20] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:20:20] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:20:20] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:20:20] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:20:20] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:20:20] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:20:20] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:20:21] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:20:21] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:20:21] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:20:21] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:20:21] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:20:21] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:20:21] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2026 22:20:21] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 10:58:59] "GET /_dash-component-suites/dash/dcc/async-markdown.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 10:58:59] "GET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 10:58:59] "GET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 10:58:59] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 10:58:59] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 10:58:59] "GET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 10:59:01] "GET /_dash-component-suites/dash/dcc/async-highlight.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 10:59:26] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:13:41] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:13:41] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:13:41] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:13:41] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:13:41] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:13:41] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:13:41] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:13:41] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:13:41] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:13:41] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:13:41] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:13:41] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:13:42] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:13:42] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:13:42] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:13:42] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:13:42] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:13:42] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:13:42] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:13:42] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:13:42] "GET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 11:13:42] "GET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 11:13:42] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:13:42] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:14:01] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:14:02] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:14:02] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:14:02] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:14:02] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:14:02] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:14:02] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:14:02] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:14:02] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:14:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:14:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:14:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:14:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:14:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:14:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:14:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:14:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:14:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:14:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:14:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:14:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:14:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:15:35] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:15:49] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:15:52] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:16:02] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:16:32] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:16:36] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:16:36] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:17:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:17:08] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:17:13] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:17:19] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:17:31] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:17:31] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:17:32] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:17:32] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:17:32] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:17:32] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:17:32] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:17:32] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:17:32] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:17:32] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:17:33] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:17:33] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:17:33] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:17:33] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:17:33] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:17:33] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:17:33] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:17:33] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:17:34] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:17:34] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:17:34] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:17:34] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:01] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:01] "GET /_dash-layout HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:01] "GET /_dash-dependencies HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:01] "GET /_dash-component-suites/dash/dcc/async-markdown.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 11:19:01] "GET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 11:19:01] "GET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 11:19:01] "GET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 11:19:01] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:01] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:01] "GET /_dash-component-suites/dash/dcc/async-highlight.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 11:19:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:06] "GET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 11:19:06] "GET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 11:19:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:19:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:24:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:24:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:24:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:24:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:24:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:24:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:24:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:24:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:24:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:24:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:24:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:24:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:24:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:24:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:24:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:24:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:24:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:24:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:24:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:24:07] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:24:07] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:24:07] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:29:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:29:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:29:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:29:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:29:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:29:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:29:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:29:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:29:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:29:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:29:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:29:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:29:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:29:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:29:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:29:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:29:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:29:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:29:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:29:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:29:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:29:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:34:10] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:34:10] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:34:10] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:34:10] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:34:10] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:34:10] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:34:10] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:34:11] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:34:11] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:34:11] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:34:11] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:34:11] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:34:11] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:34:12] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:34:12] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:34:12] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:34:12] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:34:12] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:34:12] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:34:12] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:34:12] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 11:34:12] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:22:23] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:22:23] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:22:23] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:22:23] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:22:23] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:22:23] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:22:24] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:22:24] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:22:24] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:22:24] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:22:24] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:22:24] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:22:25] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:22:25] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:22:25] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:22:25] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:22:25] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:22:25] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:22:25] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:22:25] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:22:25] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:22:25] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:24:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:24:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:24:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:24:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:24:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:24:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:24:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:24:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:24:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:24:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:24:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:24:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:24:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:24:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:24:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:24:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:24:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:24:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:24:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:24:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:24:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:24:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:29:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:29:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:29:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:29:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:29:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:29:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:29:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:29:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:29:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:29:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:29:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:29:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:29:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:29:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:29:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:29:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:29:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:29:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:29:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:29:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:29:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:29:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:34:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:34:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:34:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:34:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:34:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:34:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:34:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:34:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:34:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:34:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:34:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:34:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:34:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:34:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:34:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:34:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:34:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:34:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:34:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:34:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:34:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 12:34:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:40:01] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:40:01] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:40:01] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:40:02] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:40:02] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:40:02] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:40:02] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:40:02] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:40:02] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:40:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:40:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:40:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:40:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:40:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:40:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:40:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:40:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:40:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:40:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:40:03] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:40:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:40:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:44:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:44:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:44:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:44:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:44:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:44:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:44:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:44:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:44:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:44:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:44:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:44:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:44:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:44:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:44:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:44:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:44:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:44:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:44:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:44:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:44:07] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:44:07] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:49:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:49:04] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:49:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:49:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:49:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:49:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:49:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:49:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:49:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:49:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:49:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:49:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:49:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:49:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:49:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:49:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:49:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:49:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:49:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:49:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:49:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:49:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:54:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:54:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:54:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:54:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:54:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:54:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:54:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:54:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:54:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:54:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:54:06] "POST /_dash-update-component HTTP/1.1" 200 -
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+127.0.0.1 - - [11/Aug/2026 14:54:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:54:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:54:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:54:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:54:06] "POST /_dash-update-component HTTP/1.1" 200 -
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+127.0.0.1 - - [11/Aug/2026 14:54:06] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:54:07] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:54:07] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:54:07] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:54:07] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 14:54:07] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:10] "GET /_dash-dependencies HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:10] "GET /_dash-layout HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:10] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:10] "GET /_favicon.ico?v=3.4.0 HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:10] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:10] "GET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:07:10] "GET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:07:11] "GET /_dash-component-suites/dash/dcc/async-markdown.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:07:11] "GET /_dash-component-suites/dash/dcc/async-highlight.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:07:14] "GET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:07:22] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:22] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:22] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:22] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:22] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:23] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:23] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:23] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:23] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:23] "POST /_dash-update-component HTTP/1.1" 200 -
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+127.0.0.1 - - [11/Aug/2026 15:07:23] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:23] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:23] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:23] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:23] "POST /_dash-update-component HTTP/1.1" 200 -
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+127.0.0.1 - - [11/Aug/2026 15:07:23] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:23] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:23] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:23] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:23] "POST /_dash-update-component HTTP/1.1" 200 -
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+127.0.0.1 - - [11/Aug/2026 15:07:23] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:23] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:23] "GET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:07:24] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:25] "GET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:07:30] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:46] "GET /overview HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:46] "GET /_dash-layout HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:46] "GET /_dash-dependencies HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:46] "GET /_favicon.ico?v=3.4.0 HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:46] "GET /_dash-component-suites/dash/dcc/async-markdown.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:07:46] "GET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:07:46] "GET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:07:46] "GET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:07:46] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:46] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:46] "GET /_dash-component-suites/dash/dcc/async-highlight.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:07:48] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:48] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:48] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:48] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:48] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:48] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:48] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:48] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:48] "POST /_dash-update-component HTTP/1.1" 200 -
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+127.0.0.1 - - [11/Aug/2026 15:07:48] "POST /_dash-update-component HTTP/1.1" 200 -
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+127.0.0.1 - - [11/Aug/2026 15:07:48] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:48] "POST /_dash-update-component HTTP/1.1" 200 -
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+127.0.0.1 - - [11/Aug/2026 15:07:49] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:49] "POST /_dash-update-component HTTP/1.1" 200 -
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+127.0.0.1 - - [11/Aug/2026 15:07:49] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:49] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:49] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:49] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:49] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:50] "C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+GET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:07:50] "GET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:07:50] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:50] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:50] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:57] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:07:58] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:08:10] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:08:12] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:08:13] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:08:15] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:08:25] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:08:26] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:08:28] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:08:32] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:12:49] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:12:49] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:12:49] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:12:49] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:12:49] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:12:49] "POST /_dash-update-component HTTP/1.1" 200 -
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+127.0.0.1 - - [11/Aug/2026 15:12:49] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:12:49] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:12:49] "POST /_dash-update-component HTTP/1.1" 200 -
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+127.0.0.1 - - [11/Aug/2026 15:12:50] "POST /_dash-update-component HTTP/1.1" 200 -
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+127.0.0.1 - - [11/Aug/2026 15:12:50] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:12:50] "POST /_dash-update-component HTTP/1.1" 200 -
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+127.0.0.1 - - [11/Aug/2026 15:12:50] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:12:50] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:12:50] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:12:50] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:12:50] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:12:51] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:12:51] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:12:51] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:12:51] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:12:51] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:17:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:17:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:17:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:17:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:17:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:17:54] "POST /_dash-update-component HTTP/1.1" 200 -
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+127.0.0.1 - - [11/Aug/2026 15:17:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:17:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:17:54] "POST /_dash-update-component HTTP/1.1" 200 -
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+127.0.0.1 - - [11/Aug/2026 15:17:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:17:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:17:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:17:55] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:17:55] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:17:55] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:17:55] "POST /_dash-update-component HTTP/1.1" 200 -
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+127.0.0.1 - - [11/Aug/2026 15:17:55] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:17:55] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:17:55] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:17:55] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:17:55] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:17:55] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:37] "GET /overview HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:37] "GET /_dash-layout HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:37] "GET /_dash-dependencies HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:37] "GET /_favicon.ico?v=3.4.0 HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:37] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:37] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:37] "GET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:19:37] "GET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:19:37] "GET /_dash-component-suites/dash/dcc/async-markdown.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:19:37] "GET /_dash-component-suites/dash/dcc/async-highlight.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:19:39] "GET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:19:39] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:39] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:39] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:39] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:39] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:39] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:39] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:40] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:40] "POST /_dash-update-component HTTP/1.1" 200 -
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+127.0.0.1 - - [11/Aug/2026 15:19:40] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:40] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:40] "POST /_dash-update-component HTTP/1.1" 200 -
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+127.0.0.1 - - [11/Aug/2026 15:19:41] "POST /_dash-update-component HTTP/1.1" 200 -
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+127.0.0.1 - - [11/Aug/2026 15:19:41] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:41] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:41] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:41] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:41] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:41] "POST /_dash-update-component HTTP/1.1" 200 -
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+127.0.0.1 - - [11/Aug/2026 15:19:41] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:41] "GET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:19:41] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:41] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:42] "GET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:19:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:47] "GET /_dash-dependencies HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:47] "GET /_dash-layout HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:47] "GET /_dash-component-suites/dash/dcc/async-markdown.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:19:47] "GET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:19:47] "GET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:19:47] "GET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:19:47] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:47] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:48] "GET /_dash-component-suites/dash/dcc/async-highlight.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:19:50] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:50] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:50] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:50] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:50] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:50] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:50] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:50] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:50] "POST /_dash-update-component HTTP/1.1" 200 -
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+127.0.0.1 - - [11/Aug/2026 15:19:51] "POST /_dash-update-component HTTP/1.1" 200 -
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+127.0.0.1 - - [11/Aug/2026 15:19:51] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:51] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:51] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:51] "POST /_dash-update-component HTTP/1.1" 200 -
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+127.0.0.1 - - [11/Aug/2026 15:19:51] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:52] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:52] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:52] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:52] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:52] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:52] "GET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:19:52] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:19:52] "GET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Aug/2026 15:19:52] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:20:01] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:20:05] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:20:15] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:20:19] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:20:24] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:20:39] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:20:42] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:20:44] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:20:51] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:21:43] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:21:45] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:21:46] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:21:47] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:21:48] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:21:48] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:21:49] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:21:50] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:21:50] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:21:51] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:21:52] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:21:57] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:24:58] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:24:58] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:24:58] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:24:58] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:24:58] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:24:58] "POST /_dash-update-component HTTP/1.1" 200 -
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+127.0.0.1 - - [11/Aug/2026 15:24:58] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:24:58] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:24:59] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:24:59] "POST /_dash-update-component HTTP/1.1" 200 -
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+127.0.0.1 - - [11/Aug/2026 15:24:59] "POST /_dash-update-component HTTP/1.1" 200 -
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+127.0.0.1 - - [11/Aug/2026 15:24:59] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:25:00] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:25:00] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:25:00] "POST /_dash-update-component HTTP/1.1" 200 -
+C:\Users\ninop\AppData\Roaming\Python\Python314\site-packages\dash\development\base_component.py:454: DeprecationWarning: 
+The dash_table.DataTable will be removed from the builtin dash components in a future major version.
+We recommend using dash-ag-grid as a replacement. Install with `pip install dash[ag-grid]`.
+
+  warnings.warn(DeprecationWarning(textwrap.dedent(deprecation_message)))
+127.0.0.1 - - [11/Aug/2026 15:25:00] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:25:00] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:25:00] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:25:00] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:25:00] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:25:00] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:25:00] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:27:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:28:45] "GET /_dash-layout HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2026 15:28:53] "GET /_dash-layout HTTP/1.1" 200 -
